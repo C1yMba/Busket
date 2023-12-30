@@ -10,7 +10,6 @@ import java.util.List;
 public class Basket {
     private final List<Long>  items =  new ArrayList<>();
 
-
     public void addItem(List<Long> itemIds) {
         items.addAll(itemIds);
     }

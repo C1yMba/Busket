@@ -11,7 +11,6 @@ public class BasketController {
         this.basketService = basketService;
     }
 
-
     @GetMapping("/add")
     public String addToBasket(@RequestParam("id") List<Long> ids) {
         basketService.add(ids);
